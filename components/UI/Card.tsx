@@ -12,7 +12,7 @@ export default function CardDivision({data}:{data:upload}) {
   return (
     <>
         <div
-          className="w-full max-w-sm max-h-80 h-full bg-[#E5E1DA] border border-gray-200 rounded-lg shadow-[rgba(0,_0,_0,_0.2)_0px_60px_40px_-7px]"
+          className="w-full max-w-sm max-h-80 h-full bg-[#E5E1DA] border border-gray-200 rounded-lg shadow-[rgba(0,_0,_0,_0.2)_0px_60px_40px_-7px] hover:rotate-3 transition duration-500 ease-in-out hover:scale-110"
         >
           <a href="#">
             <Image
